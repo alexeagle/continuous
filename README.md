@@ -1,2 +1,3 @@
 # continuous
-UI for continuous integration
+A UI for continuous integration
+
