@@ -1,0 +1,25 @@
+{
+  "name": "continuous",
+  "version": "0.1.0",
+  "description": "UI for continuous build",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src",
+    "serve": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "continuous",
+    "integration",
+    "testing"
+  ],
+  "author": "Alex Eagle <alexeagle@google.com> (https://angularjs.org/)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.45",
+    "ts-loader": "^0.6.1",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
